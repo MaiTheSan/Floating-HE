@@ -4536,16 +4536,6 @@
 		)
 		(uuid "38ed6958-eac7-4130-917f-3158ca73aa85")
 	)
-	(polyline
-		(pts
-			(xy 85.725 66.04) (xy 85.725 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39d528c6-1dc5-4835-93aa-2fb69b8055f9")
-	)
 	(wire
 		(pts
 			(xy 30.48 185.42) (xy 35.56 185.42)
@@ -5879,6 +5869,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB"
+		(shape input)
+		(at 52.07 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18dd2a1f-c867-4e44-9481-36c20cad03ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.2748 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

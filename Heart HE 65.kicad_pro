@@ -500,7 +500,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "export/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -624,10 +624,6 @@
     [
       "15ba81c1-b911-4c52-9574-91ee43589b76",
       "RGB_Perkey"
-    ],
-    [
-      "a599f268-079c-48e8-9ca6-ef99c1c61407",
-      "RGB Matrix"
     ]
   ],
   "text_variables": {}
