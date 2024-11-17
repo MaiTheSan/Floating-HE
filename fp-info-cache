@@ -1,4 +1,4 @@
-24362444347867622
+24364176231672274
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6691,6 +6691,13 @@ TYPE-C-31-M-12
 0
 16
 13
+Common_Footprint
+Traymount Mounting Hole
+Mounting Hole 2.2mm, M2, DIN965
+mounting hole 2.2mm m2 din965
+0
+1
+1
 Common_Footprint
 USB Breakout
 Through hole straight socket strip, 1x04, 1.27mm pitch, single row (from Kicad 4.0.7), script generated
