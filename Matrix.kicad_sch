@@ -140,128 +140,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SLSS49E-3_1"
 			(pin_names
 				(offset 0.127)
@@ -617,22 +495,16 @@
 		)
 	)
 	(junction
-		(at 58.42 379.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "012f880d-c5b4-4e01-87d5-bb9060db1339")
-	)
-	(junction
 		(at 53.34 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0160f31d-866f-4bdf-a617-7f67942c4981")
 	)
 	(junction
-		(at 436.88 261.62)
+		(at 88.9 389.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "028bb5d8-67c2-4eee-9a4f-90be45eadf5f")
+		(uuid "01dd36c2-7629-4c69-aae3-646eed8665ce")
 	)
 	(junction
 		(at 48.26 369.57)
@@ -803,12 +675,6 @@
 		(uuid "256b8581-eabf-4d9f-bd1f-6bf4233ba711")
 	)
 	(junction
-		(at 436.88 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25f2c2b9-4ef7-4680-8e9f-eecafc917a7b")
-	)
-	(junction
 		(at 139.7 379.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -905,12 +771,6 @@
 		(uuid "3b3d12ff-081f-49d5-ab1a-dff8848424eb")
 	)
 	(junction
-		(at 190.5 354.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3be2ef13-ddf0-4d3c-8319-9a3624ce6f51")
-	)
-	(junction
 		(at 106.68 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -969,12 +829,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48c02c39-ef48-4d58-bb23-8091e7eabeec")
-	)
-	(junction
-		(at 170.18 364.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49ac629d-01b5-4c06-80ef-fcfe69a431ae")
 	)
 	(junction
 		(at 284.48 175.26)
@@ -1091,6 +945,12 @@
 		(uuid "5889066b-7199-408f-9583-019290832c18")
 	)
 	(junction
+		(at 411.48 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59d9b1d0-f0a2-4e33-8703-f2ef9674475e")
+	)
+	(junction
 		(at 58.42 400.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1107,18 +967,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dc15235-6126-4610-8957-db7f014e6277")
-	)
-	(junction
-		(at 88.9 384.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e329ad8-1c39-49c7-9472-4e8dfd5794c6")
-	)
-	(junction
-		(at 88.9 389.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5edea28a-475c-4d40-8ecf-a4040553eacd")
 	)
 	(junction
 		(at 170.18 400.05)
@@ -1167,18 +1015,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64e0db33-e1b4-4188-a816-7b096c096937")
-	)
-	(junction
-		(at 436.88 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6550a2cc-58b7-4f08-8461-d713ad2375f2")
-	)
-	(junction
-		(at 436.88 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67153883-ebd7-4abb-9813-eb6968e8e950")
 	)
 	(junction
 		(at 149.86 354.33)
@@ -1259,16 +1095,22 @@
 		(uuid "7626857f-ddbb-4447-8996-2c29cd7c60fb")
 	)
 	(junction
+		(at 386.08 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7652eaa7-8d20-4e3a-9a77-33f8fe76e384")
+	)
+	(junction
 		(at 360.68 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77d03081-41f5-4a18-99de-5e839bb289ce")
 	)
 	(junction
-		(at 58.42 374.65)
+		(at 414.02 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77f2d79a-0ac4-419f-af6b-313578cbda75")
+		(uuid "77f4fbaf-7d08-4831-a1ec-7e6227a036a2")
 	)
 	(junction
 		(at 78.74 389.89)
@@ -1355,6 +1197,12 @@
 		(uuid "8712be07-f055-4bf6-a884-6ccf10598c39")
 	)
 	(junction
+		(at 408.94 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "895afa7a-dc83-4df9-81bf-5cb6976bb0aa")
+	)
+	(junction
 		(at 259.08 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1377,12 +1225,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c9cf3ff-19c8-4b1c-8be1-fc6dc2011c7d")
-	)
-	(junction
-		(at 170.18 369.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d1b57b6-7240-4b3d-8364-d8d54812eadc")
 	)
 	(junction
 		(at 78.74 364.49)
@@ -1643,12 +1485,6 @@
 		(uuid "b909c90b-5f9e-47e5-8233-9f6113788a23")
 	)
 	(junction
-		(at 436.88 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcee095f-0902-4553-a6e8-8a8d2ec09a32")
-	)
-	(junction
 		(at 160.02 389.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1679,6 +1515,12 @@
 		(uuid "c1b69582-609a-4d17-a249-db5408a71099")
 	)
 	(junction
+		(at 88.9 384.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2072432-8c3c-4d09-818a-8a7ff84f0a60")
+	)
+	(junction
 		(at 335.28 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1695,6 +1537,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5a72cb0-c120-4bd0-bb91-d0e82e35ff91")
+	)
+	(junction
+		(at 383.54 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c69d0c21-1488-4f6c-97b9-e9563b80f511")
 	)
 	(junction
 		(at 58.42 156.21)
@@ -1731,6 +1579,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cab1cc19-9f9b-428f-8603-c7b4045dd19c")
+	)
+	(junction
+		(at 388.62 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc55953a-93a0-45da-bec6-eff5cbc7cfb8")
 	)
 	(junction
 		(at 139.7 384.81)
@@ -1943,12 +1797,6 @@
 		(uuid "fa28d348-cfc0-4dd2-8eb4-70ffb197af57")
 	)
 	(junction
-		(at 190.5 359.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc82735f-3b7b-4448-a429-c6fc4f522ebe")
-	)
-	(junction
 		(at 99.06 374.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2032,16 +1880,6 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 196.85) (xy 439.42 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05cf93b8-4f1e-49eb-90b2-e00de37d86a5")
-	)
-	(wire
-		(pts
 			(xy 129.54 67.31) (xy 129.54 69.85)
 		)
 		(stroke
@@ -2122,16 +1960,6 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 218.44) (xy 436.88 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a537ddf-a3e1-4177-894c-90bf4b5d4c7d")
-	)
-	(wire
-		(pts
 			(xy 259.08 132.08) (xy 259.08 133.35)
 		)
 		(stroke
@@ -2182,7 +2010,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 227.33) (xy 532.13 229.87)
+			(xy 532.13 232.41) (xy 532.13 234.95)
 		)
 		(stroke
 			(width 0)
@@ -2202,7 +2030,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 379.73) (xy 58.42 379.73)
+			(xy 48.26 379.73) (xy 68.58 379.73)
 		)
 		(stroke
 			(width 0)
@@ -2282,16 +2110,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 369.57) (xy 170.18 369.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1266b0d9-c29e-425a-a628-657785c806b5")
-	)
-	(wire
-		(pts
 			(xy 261.62 110.49) (xy 261.62 113.03)
 		)
 		(stroke
@@ -2329,16 +2147,6 @@
 			(type default)
 		)
 		(uuid "14118a13-ba82-4c73-9625-ac6dedae8caa")
-	)
-	(wire
-		(pts
-			(xy 436.88 261.62) (xy 436.88 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "149138e2-e462-45c8-b1ca-525bc0a96bc2")
 	)
 	(wire
 		(pts
@@ -2439,16 +2247,6 @@
 			(type default)
 		)
 		(uuid "1b09df7b-88cd-4964-937c-d2474c97c9c5")
-	)
-	(wire
-		(pts
-			(xy 436.88 85.09) (xy 436.88 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c53389a-a53c-47ba-b0ee-0f8844c98aaa")
 	)
 	(wire
 		(pts
@@ -2622,7 +2420,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 359.41) (xy 200.66 359.41)
+			(xy 180.34 359.41) (xy 200.66 359.41)
 		)
 		(stroke
 			(width 0)
@@ -2659,16 +2457,6 @@
 			(type default)
 		)
 		(uuid "228992d1-c710-4c54-84fa-4e2800bf4953")
-	)
-	(wire
-		(pts
-			(xy 431.8 175.26) (xy 436.88 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2291e81f-8416-4aff-8af4-3471362fa090")
 	)
 	(wire
 		(pts
@@ -2812,16 +2600,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 384.81) (xy 99.06 384.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "285a1434-b89f-452a-a991-ee653747ead7")
-	)
-	(wire
-		(pts
 			(xy 88.9 374.65) (xy 99.06 374.65)
 		)
 		(stroke
@@ -2869,16 +2647,6 @@
 			(type default)
 		)
 		(uuid "2a90ba0d-5e43-49af-a64f-87db548f46bb")
-	)
-	(wire
-		(pts
-			(xy 431.8 88.9) (xy 436.88 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b5ef91b-4e4a-4995-a476-2aa2aa2162be")
 	)
 	(wire
 		(pts
@@ -3012,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 254) (xy 529.59 252.73)
+			(xy 529.59 250.19) (xy 529.59 254)
 		)
 		(stroke
 			(width 0)
@@ -3062,16 +2830,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 364.49) (xy 170.18 364.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3437b09c-65c9-4817-946b-7c436679c7d7")
-	)
-	(wire
-		(pts
 			(xy 58.42 394.97) (xy 99.06 394.97)
 		)
 		(stroke
@@ -3099,16 +2857,6 @@
 			(type default)
 		)
 		(uuid "37588a4c-c279-4173-9953-609fc76902c2")
-	)
-	(wire
-		(pts
-			(xy 48.26 374.65) (xy 58.42 374.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3851cd04-bdc3-491c-b771-547e895719d0")
 	)
 	(wire
 		(pts
@@ -3159,16 +2907,6 @@
 			(type default)
 		)
 		(uuid "3b7bc52c-2f30-40e3-a954-c52b67e1c49b")
-	)
-	(wire
-		(pts
-			(xy 436.88 175.26) (xy 436.88 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bb151d3-bbd3-43fc-bc8d-7fb3a2eacc1f")
 	)
 	(wire
 		(pts
@@ -3339,16 +3077,6 @@
 			(type default)
 		)
 		(uuid "482041bf-4272-42a0-acfe-7285deb0f7ba")
-	)
-	(wire
-		(pts
-			(xy 436.88 218.44) (xy 436.88 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48fd343e-61a7-4e6d-8671-5db7c738a5c3")
 	)
 	(wire
 		(pts
@@ -3602,7 +3330,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 354.33) (xy 190.5 354.33)
+			(xy 180.34 354.33) (xy 200.66 354.33)
 		)
 		(stroke
 			(width 0)
@@ -3742,13 +3470,13 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 110.49) (xy 434.34 113.03)
+			(xy 88.9 389.89) (xy 99.06 389.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5effbc1a-9445-4564-b6fa-fee04af6d543")
+		(uuid "5ec95169-b723-49e2-996c-5d9eb2829561")
 	)
 	(wire
 		(pts
@@ -3842,16 +3570,6 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 128.27) (xy 436.88 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "625f1f53-1cd2-4895-8caa-37e4d22c4d57")
-	)
-	(wire
-		(pts
 			(xy 233.68 214.63) (xy 233.68 218.44)
 		)
 		(stroke
@@ -3872,7 +3590,7 @@
 	)
 	(wire
 		(pts
-			(xy 527.05 227.33) (xy 527.05 229.87)
+			(xy 527.05 232.41) (xy 527.05 234.95)
 		)
 		(stroke
 			(width 0)
@@ -4072,16 +3790,6 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 67.31) (xy 439.42 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fa33393-f260-408d-bfd4-b9ce1d60d4f2")
-	)
-	(wire
-		(pts
 			(xy 132.08 132.08) (xy 132.08 133.35)
 		)
 		(stroke
@@ -4129,16 +3837,6 @@
 			(type default)
 		)
 		(uuid "71862da5-da35-414a-ac8f-6133f0c87f5b")
-	)
-	(wire
-		(pts
-			(xy 436.88 257.81) (xy 436.88 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72243a2d-05b5-4970-8e50-b5e548361322")
 	)
 	(wire
 		(pts
@@ -4292,16 +3990,6 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 245.11) (xy 529.59 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b81ac99-31ab-4b51-8ba2-0ccec910aa86")
-	)
-	(wire
-		(pts
 			(xy 81.28 175.26) (xy 81.28 176.53)
 		)
 		(stroke
@@ -4452,16 +4140,6 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 240.03) (xy 434.34 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82496231-3203-4b2e-a9c2-b6c9b582544f")
-	)
-	(wire
-		(pts
 			(xy 149.86 359.41) (xy 160.02 359.41)
 		)
 		(stroke
@@ -4532,16 +4210,6 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 153.67) (xy 434.34 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85ff82ae-5805-4f98-acac-8fd2bece073e")
-	)
-	(wire
-		(pts
 			(xy 157.48 214.63) (xy 157.48 218.44)
 		)
 		(stroke
@@ -4589,6 +4257,16 @@
 			(type default)
 		)
 		(uuid "87873f8f-9edb-4254-9b8f-11266efa4445")
+	)
+	(wire
+		(pts
+			(xy 88.9 384.81) (xy 99.06 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ffb7d3-8cd9-4087-8788-f1a0ef14e7e2")
 	)
 	(wire
 		(pts
@@ -4769,16 +4447,6 @@
 			(type default)
 		)
 		(uuid "8f061aaf-9088-45f9-b398-0e88b87ae6a6")
-	)
-	(wire
-		(pts
-			(xy 431.8 132.08) (xy 436.88 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ff2e2a1-8494-40d7-ad01-2b2626250ce0")
 	)
 	(wire
 		(pts
@@ -4992,7 +4660,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 364.49) (xy 180.34 364.49)
+			(xy 160.02 364.49) (xy 180.34 364.49)
 		)
 		(stroke
 			(width 0)
@@ -5262,16 +4930,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 354.33) (xy 200.66 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf7ca20-7a84-4ced-b75d-ccd4d7ef92f1")
-	)
-	(wire
-		(pts
 			(xy 383.54 110.49) (xy 383.54 113.03)
 		)
 		(stroke
@@ -5329,16 +4987,6 @@
 			(type default)
 		)
 		(uuid "aea07245-856c-4fe1-ba60-5d8f25d47a67")
-	)
-	(wire
-		(pts
-			(xy 434.34 67.31) (xy 434.34 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aed715e0-2037-4174-b6c4-63af0b73ac01")
 	)
 	(wire
 		(pts
@@ -5452,16 +5100,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 389.89) (xy 99.06 389.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3443b98-48c2-4512-8d48-e88d2f7f60c3")
-	)
-	(wire
-		(pts
 			(xy 411.48 85.09) (xy 411.48 88.9)
 		)
 		(stroke
@@ -5469,26 +5107,6 @@
 			(type default)
 		)
 		(uuid "b3ba53cd-c3cb-461a-9962-e0a2cb569489")
-	)
-	(wire
-		(pts
-			(xy 436.88 171.45) (xy 436.88 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4712b96-201b-43bd-b7d4-8f5dfffb4a3d")
-	)
-	(wire
-		(pts
-			(xy 436.88 214.63) (xy 436.88 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4796f36-ae3c-4aab-a61c-6539a6e66cc3")
 	)
 	(wire
 		(pts
@@ -5542,16 +5160,6 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 88.9) (xy 436.88 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6403e56-6e7a-4134-90a9-42e554446ea4")
-	)
-	(wire
-		(pts
 			(xy 81.28 132.08) (xy 81.28 133.35)
 		)
 		(stroke
@@ -5569,16 +5177,6 @@
 			(type default)
 		)
 		(uuid "b71e6e2a-9322-4c61-9566-a44136af9de7")
-	)
-	(wire
-		(pts
-			(xy 436.88 132.08) (xy 436.88 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b75e8ea6-0be7-45f6-b909-7265e4be4698")
 	)
 	(wire
 		(pts
@@ -5682,16 +5280,6 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 261.62) (xy 436.88 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb8ab628-b772-4014-bb16-b9c779ea8f94")
-	)
-	(wire
-		(pts
 			(xy 81.28 257.81) (xy 81.28 261.62)
 		)
 		(stroke
@@ -5779,16 +5367,6 @@
 			(type default)
 		)
 		(uuid "c01e68c7-f0bc-4065-8e9d-e18a7bce47ec")
-	)
-	(wire
-		(pts
-			(xy 439.42 240.03) (xy 439.42 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0441218-87c3-4732-aea4-faf2e918fbf2")
 	)
 	(wire
 		(pts
@@ -6052,7 +5630,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 369.57) (xy 180.34 369.57)
+			(xy 160.02 369.57) (xy 180.34 369.57)
 		)
 		(stroke
 			(width 0)
@@ -6232,16 +5810,6 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 196.85) (xy 434.34 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4e472cd-19b8-424f-ba0b-e9855aec0efe")
-	)
-	(wire
-		(pts
 			(xy 233.68 175.26) (xy 233.68 176.53)
 		)
 		(stroke
@@ -6272,16 +5840,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 359.41) (xy 190.5 359.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d640bc5c-4fcb-470c-9b02-7b1c10f7e74f")
-	)
-	(wire
-		(pts
 			(xy 119.38 389.89) (xy 129.54 389.89)
 		)
 		(stroke
@@ -6309,26 +5867,6 @@
 			(type default)
 		)
 		(uuid "d6e5ddcc-dc8c-4970-b979-2869af0f57f9")
-	)
-	(wire
-		(pts
-			(xy 439.42 110.49) (xy 439.42 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d84ae0ee-0a7c-4dcd-9836-7775b4a4f7fd")
-	)
-	(wire
-		(pts
-			(xy 58.42 379.73) (xy 68.58 379.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d874ec25-904e-4480-81c6-a57011e55dc9")
 	)
 	(wire
 		(pts
@@ -6422,7 +5960,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 374.65) (xy 68.58 374.65)
+			(xy 48.26 374.65) (xy 68.58 374.65)
 		)
 		(stroke
 			(width 0)
@@ -6549,16 +6087,6 @@
 			(type default)
 		)
 		(uuid "e3f3b824-f1ca-47b6-81cf-5e1d53972762")
-	)
-	(wire
-		(pts
-			(xy 439.42 153.67) (xy 439.42 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e43d46ab-327c-49bf-a54f-b587408fee80")
 	)
 	(wire
 		(pts
@@ -7137,28 +6665,6 @@
 		(uuid "061eee9b-8dec-4f44-b8fa-0d56a487ffc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 284.48 181.9342 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "315"
-		(shape input)
-		(at 436.88 219.71 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "19af09ed-a56e-4972-bc42-b1102dd544be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 436.88 226.3237 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,28 +7840,6 @@
 			)
 		)
 	)
-	(global_label "115"
-		(shape input)
-		(at 436.88 133.35 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aedc6e53-a034-47be-b70b-54f039abb55d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 436.88 139.9637 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "17"
 		(shape input)
 		(at 233.68 133.35 270)
@@ -8620,50 +8104,6 @@
 			)
 		)
 	)
-	(global_label "015"
-		(shape input)
-		(at 436.88 90.17 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d24f271a-6e47-40e3-a5e0-d58a7ca594bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 436.88 96.7837 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "215"
-		(shape input)
-		(at 436.88 176.53 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d3287368-86c9-431a-8efe-0d4d3626e4e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 436.88 183.1437 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "23"
 		(shape input)
 		(at 132.08 176.53 270)
@@ -8853,28 +8293,6 @@
 		(uuid "df0794f8-167e-45cc-a226-cc207d548106")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 106.68 181.9342 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "415"
-		(shape input)
-		(at 436.88 262.89 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e79fd7d9-2c2c-47d8-bd09-2e6f430703f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 436.88 269.5037 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9354,86 +8772,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SLSS49E-3_1")
-		(lib_id "Salane Personal Symbol:SLSS49E-3")
-		(at 411.48 250.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02ba6b76-3f96-46f7-a432-ecf5c7d04f03")
-		(property "Reference" "U100"
-			(at 417.83 248.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SLSS49E-3"
-			(at 417.83 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Hall_Sensor_Keyboard:SLSS49E_MX_1U"
-			(at 401.32 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081930_Slkor-SLKORMICRO-Elec--SLSS49E-3_C2904393.pdf"
-			(at 394.97 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 411.48 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c99cd843-446e-40e3-9fb8-09610e39636b")
-		)
-		(pin "2"
-			(uuid "bb064699-06ca-4ecf-ab90-8260f6557560")
-		)
-		(pin "3"
-			(uuid "b80d4931-300a-4072-a925-75cfb5a74918")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "U100")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "U98")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 378.46 88.9 90)
 		(unit 1)
@@ -9587,7 +8925,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 527.05 227.33 180)
+		(at 527.05 232.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9595,7 +8933,7 @@
 		(dnp no)
 		(uuid "03856ccc-2d69-4dae-9490-15cf575fc236")
 		(property "Reference" "#PWR034"
-			(at 527.05 220.98 0)
+			(at 527.05 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9604,7 +8942,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 524.51 227.33 0)
+			(at 524.51 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +8950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 527.05 227.33 0)
+			(at 527.05 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9621,7 +8959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 527.05 227.33 0)
+			(at 527.05 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9630,7 +8968,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 527.05 227.33 0)
+			(at 527.05 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10942,77 +10280,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 439.42 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0cb8953a-7f6d-4ee3-8a72-aed87e4dd9a8")
-		(property "Reference" "#PWR099"
-			(at 439.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 441.96 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 439.42 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 439.42 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 439.42 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d34cfa50-6e9f-4816-85ef-ca19131943db")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0326")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 276.86 175.26 90)
 		(unit 1)
@@ -11218,77 +10485,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "#PWR0257")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 439.42 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d99af3c-f023-4769-b8a7-ebfcca64b529")
-		(property "Reference" "#PWR0201"
-			(at 439.42 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 441.96 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 439.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 439.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 439.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf7bd2cc-d4b6-4996-885c-6792b55dfe89")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "#PWR0201")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0328")
 					(unit 1)
 				)
 			)
@@ -11567,77 +10763,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 434.34 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "109bca74-9340-476c-824c-13e135e35dc6")
-		(property "Reference" "#PWR0149"
-			(at 434.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 431.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 434.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 434.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 434.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e3356d8-674c-4cd4-a788-4d78295bc70d")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "#PWR0149")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0321")
 					(unit 1)
 				)
 			)
@@ -12152,6 +11277,80 @@
 		)
 	)
 	(symbol
+		(lib_name "SLSS49E-3_1")
+		(lib_id "Salane Personal Symbol:SLSS49E-3")
+		(at 386.08 250.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1325d121-2d9e-44b6-8ef6-adbdccec9ab9")
+		(property "Reference" "U39"
+			(at 392.43 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SLSS49E-3"
+			(at 392.43 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Hall_Sensor_Keyboard:SLSS49E_MX_1U_Rotate"
+			(at 375.92 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081930_Slkor-SLKORMICRO-Elec--SLSS49E-3_C2904393.pdf"
+			(at 369.57 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 386.08 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e210eb6-3d5d-4f96-9261-c651ef695a53")
+		)
+		(pin "2"
+			(uuid "bf487520-91e5-4f86-8a92-3111b4b88fb1")
+		)
+		(pin "3"
+			(uuid "ecdb9f61-4d6e-4694-9b96-71a51a2ccd48")
+		)
+		(instances
+			(project "Heart HE 60"
+				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
+					(reference "U39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 307.34 196.85 180)
 		(unit 1)
@@ -12659,86 +11858,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "#PWR0165")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SLSS49E-3_1")
-		(lib_id "Salane Personal Symbol:SLSS49E-3")
-		(at 436.88 207.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18278c28-afba-40db-9d01-3af7f8de047f")
-		(property "Reference" "U84"
-			(at 443.23 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SLSS49E-3"
-			(at 443.23 208.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Hall_Sensor_Keyboard:SLSS49E_MX_1U"
-			(at 426.72 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081930_Slkor-SLKORMICRO-Elec--SLSS49E-3_C2904393.pdf"
-			(at 420.37 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 436.88 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96be93b7-555b-48fc-8741-5d43ca30b71d")
-		)
-		(pin "2"
-			(uuid "f2e73d1a-0a39-4a3c-a254-5bfcb5981336")
-		)
-		(pin "3"
-			(uuid "6bd26821-e93d-4738-b152-449d269f9419")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "U84")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "U103")
 					(unit 1)
 				)
 			)
@@ -13332,77 +12451,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "#PWR0183")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 439.42 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b8367ca-b46f-4bb3-a38e-d53b8430dd4e")
-		(property "Reference" "#PWR0150"
-			(at 439.42 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 441.96 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 439.42 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 439.42 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 439.42 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f079418d-0e51-4f13-aef5-8a3d9ad6d731")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "#PWR0150")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0327")
 					(unit 1)
 				)
 			)
@@ -14978,7 +14026,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 160.02 387.35 180)
+		(at 170.18 387.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14986,7 +14034,7 @@
 		(dnp no)
 		(uuid "285ea92f-7e76-480b-8c7d-46813c31ad4c")
 		(property "Reference" "C17"
-			(at 157.48 388.6138 0)
+			(at 167.64 388.6138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14995,7 +14043,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 157.48 386.0738 0)
+			(at 167.64 386.0738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15004,7 +14052,7 @@
 			)
 		)
 		(property "Footprint" "Common_Footprint:C_0402"
-			(at 160.02 387.35 0)
+			(at 170.18 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15013,7 +14061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 387.35 0)
+			(at 170.18 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15022,7 +14070,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 387.35 0)
+			(at 170.18 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15128,156 +14176,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 429.26 218.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a86ac75-ce2a-4439-938a-eb7305cf1a11")
-		(property "Reference" "C109"
-			(at 427.9962 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7nF"
-			(at 430.5362 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Common_Footprint:C_0402"
-			(at 429.26 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 429.26 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 429.26 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3bfc609-3396-41f0-b901-def60760d410")
-		)
-		(pin "2"
-			(uuid "3cb5fd47-008b-423c-9646-ac58a516b20e")
-		)
-		(instances
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "C109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 190.5 387.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b92170e-10bb-4a59-84fa-4f5a31190341")
-		(property "Reference" "C17"
-			(at 187.96 388.6138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 187.96 386.0738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Common_Footprint:C_0402"
-			(at 190.5 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f88e175c-2a0e-4aec-b4a0-d3110ca150ed")
-		)
-		(pin "2"
-			(uuid "b2be6da7-a646-4424-a8a4-169740a822bb")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "C145")
-					(unit 1)
-				)
-			)
-			(project "Salane usO"
-				(path "/508e0333-ab34-4ef1-bc47-aa6189986b3c"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 124.46 218.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15340,77 +14238,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 434.34 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b9bf7b2-7595-45ff-819b-315caabd39d9")
-		(property "Reference" "#PWR098"
-			(at 434.34 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 431.8 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 434.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 434.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 434.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b3b75db-f149-45bb-917a-46b8fd34952a")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0320")
 					(unit 1)
 				)
 			)
@@ -15771,6 +14598,80 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SLSS49E-3_1")
+		(lib_id "Salane Personal Symbol:SLSS49E-3")
+		(at 411.48 250.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "302d537c-9eb1-4b4c-9f9e-f8ac4c2ad31f")
+		(property "Reference" "U68"
+			(at 417.83 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SLSS49E-3"
+			(at 417.83 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Hall_Sensor_Keyboard:SLSS49E_MX_1.5U_Rotate"
+			(at 401.32 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081930_Slkor-SLKORMICRO-Elec--SLSS49E-3_C2904393.pdf"
+			(at 394.97 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 411.48 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d01b616-9789-4ad7-aef5-4897838b49f9")
+		)
+		(pin "2"
+			(uuid "94cceca0-2985-4956-9a3a-00cfdd17440d")
+		)
+		(pin "3"
+			(uuid "51dab4a8-31c8-47a5-998d-14bf4eae27be")
+		)
+		(instances
+			(project "Heart HE 60"
+				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
+					(reference "U68")
 					(unit 1)
 				)
 			)
@@ -16435,87 +15336,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "C114")
-					(unit 1)
-				)
-			)
-			(project "Salane usO"
-				(path "/508e0333-ab34-4ef1-bc47-aa6189986b3c"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 429.26 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37805682-fa85-45fc-bff9-83e69bb3890d")
-		(property "Reference" "C33"
-			(at 427.9962 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7nF"
-			(at 430.5362 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Common_Footprint:C_0402"
-			(at 429.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 429.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 429.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e85b3d3b-4c69-45be-8527-49b83d8bfa91")
-		)
-		(pin "2"
-			(uuid "f108f7d9-8b1e-486a-b7d5-7bfbd8361233")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -17280,77 +16100,6 @@
 			(project "Salane usO"
 				(path "/508e0333-ab34-4ef1-bc47-aa6189986b3c"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 434.34 153.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a29f64b-a2dd-420b-b6a2-c615e5cb14a1")
-		(property "Reference" "#PWR0200"
-			(at 434.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 431.8 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 434.34 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 434.34 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 434.34 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3369f965-cf90-4b2a-b9aa-40815c0e0fff")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "#PWR0200")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0322")
 					(unit 1)
 				)
 			)
@@ -18367,75 +17116,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 429.26 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "462a03e6-4023-4917-ba7d-1e3fa6d9ccdb")
-		(property "Reference" "C185"
-			(at 427.9962 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7nF"
-			(at 430.5362 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Common_Footprint:C_0402"
-			(at 429.26 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 429.26 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 429.26 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cdb424e0-0f49-4fa4-9fe6-2eab878ebd9b")
-		)
-		(pin "2"
-			(uuid "99e0b351-2716-41df-9226-f62438919fb7")
-		)
-		(instances
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "C185")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 149.86 356.87 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18517,77 +17197,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 434.34 196.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4736b641-724c-4d7a-9bb6-d58b4334d167")
-		(property "Reference" "#PWR0251"
-			(at 434.34 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 431.8 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 434.34 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 434.34 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 434.34 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37a7297a-6731-4f41-9fd7-caad8723bf3f")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "#PWR0251")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0323")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 485.14 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18652,75 +17261,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 429.26 261.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48165d5f-292b-4bdf-91fc-306420ef0b38")
-		(property "Reference" "C174"
-			(at 427.9962 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7nF"
-			(at 430.5362 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Common_Footprint:C_0402"
-			(at 429.26 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 429.26 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 429.26 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f41f523e-1b89-4e3d-8de6-85c3409bec37")
-		)
-		(pin "2"
-			(uuid "af931bee-25dd-4498-8e4a-dbbb46b244fb")
-		)
-		(instances
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "C174")
 					(unit 1)
 				)
 			)
@@ -19026,86 +17566,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SLSS49E-3_1")
-		(lib_id "Salane Personal Symbol:SLSS49E-3")
-		(at 436.88 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a14db30-a500-45ee-8e89-6a27b152d864")
-		(property "Reference" "U33"
-			(at 443.23 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SLSS49E-3"
-			(at 443.23 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Hall_Sensor_Keyboard:SLSS49E_MX_1U"
-			(at 426.72 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081930_Slkor-SLKORMICRO-Elec--SLSS49E-3_C2904393.pdf"
-			(at 420.37 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 436.88 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1def2a2a-7fd2-4fcf-82a6-4b5baa878659")
-		)
-		(pin "2"
-			(uuid "73b4e970-b871-4b72-9b1d-4e6d240373c3")
-		)
-		(pin "3"
-			(uuid "b09d6550-da70-4a04-ac21-7cc34049422e")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "U33")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "U100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 27.94 364.49 90)
 		(unit 1)
@@ -19323,77 +17783,6 @@
 			(project "Salane usO"
 				(path "/508e0333-ab34-4ef1-bc47-aa6189986b3c"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 439.42 240.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c34ba5e-4a72-4445-b00b-009d46354718")
-		(property "Reference" "#PWR0303"
-			(at 439.42 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 441.96 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 439.42 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 439.42 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 439.42 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fcb9ac20-1e0b-44d7-afac-3424a9ffcfdd")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "#PWR0303")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0330")
 					(unit 1)
 				)
 			)
@@ -19690,7 +18079,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 180.34 387.35 180)
+		(at 190.5 387.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19698,7 +18087,7 @@
 		(dnp no)
 		(uuid "4eb202ba-620a-4202-8b3a-a76a112ac3e4")
 		(property "Reference" "C17"
-			(at 177.8 388.6138 0)
+			(at 187.96 388.6138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19707,7 +18096,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 177.8 386.0738 0)
+			(at 187.96 386.0738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19716,7 +18105,7 @@
 			)
 		)
 		(property "Footprint" "Common_Footprint:C_0402"
-			(at 180.34 387.35 0)
+			(at 190.5 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19725,7 +18114,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 387.35 0)
+			(at 190.5 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19734,7 +18123,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 387.35 0)
+			(at 190.5 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19771,7 +18160,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 88.9 387.35 180)
+		(at 99.06 387.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19779,7 +18168,7 @@
 		(dnp no)
 		(uuid "4ee14029-4e0d-41dc-9511-3952f1411756")
 		(property "Reference" "C17"
-			(at 86.36 388.6138 0)
+			(at 96.52 388.6138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19788,7 +18177,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 86.36 386.0738 0)
+			(at 96.52 386.0738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19797,7 +18186,7 @@
 			)
 		)
 		(property "Footprint" "Common_Footprint:C_0402"
-			(at 88.9 387.35 0)
+			(at 99.06 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19806,7 +18195,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 387.35 0)
+			(at 99.06 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19815,7 +18204,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 387.35 0)
+			(at 99.06 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20448,73 +18837,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "#PWR0151")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 426.72 261.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5378ed30-47f0-4689-8c7c-04c4308aa4e3")
-		(property "Reference" "#PWR0205"
-			(at 420.37 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 422.91 261.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 426.72 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 426.72 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 426.72 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81ee194d-5f77-4aea-b0df-481e4557e3cd")
-		)
-		(instances
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -22753,6 +21075,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 88.9 387.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64ada5f4-a98b-435c-973f-3ee7cae1f142")
+		(property "Reference" "C50"
+			(at 86.36 388.6138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 86.36 386.0738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Common_Footprint:C_0402"
+			(at 88.9 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb021bf4-a1e7-462a-a7f1-e5b9decc88b8")
+		)
+		(pin "2"
+			(uuid "32d637c1-3ff0-42b7-bc9a-c71fdb1bb23e")
+		)
+		(instances
+			(project "Heart HE 60"
+				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 210.82 67.31 0)
 		(unit 1)
@@ -22818,73 +21209,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "#PWR0164")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 426.72 218.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65268e48-931f-4656-bb0a-55be24d5773b")
-		(property "Reference" "#PWR0259"
-			(at 420.37 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 422.91 218.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 426.72 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 426.72 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 426.72 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33d73181-dece-40b1-b167-37584557515d")
-		)
-		(instances
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0259")
 					(unit 1)
 				)
 			)
@@ -23635,7 +21959,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 170.18 387.35 180)
+		(at 180.34 387.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23643,7 +21967,7 @@
 		(dnp no)
 		(uuid "6bf78a03-3368-4c18-9e57-43aac64311dc")
 		(property "Reference" "C17"
-			(at 167.64 388.6138 0)
+			(at 177.8 388.6138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23652,7 +21976,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 167.64 386.0738 0)
+			(at 177.8 386.0738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23661,7 +21985,7 @@
 			)
 		)
 		(property "Footprint" "Common_Footprint:C_0402"
-			(at 170.18 387.35 0)
+			(at 180.34 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23670,7 +21994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 387.35 0)
+			(at 180.34 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23679,7 +22003,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 387.35 0)
+			(at 180.34 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24006,75 +22330,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 429.26 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ed3c757-7e25-4589-b3f1-61982c033242")
-		(property "Reference" "C184"
-			(at 427.9962 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7nF"
-			(at 430.5362 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Common_Footprint:C_0402"
-			(at 429.26 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 429.26 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 429.26 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ee6d68e-c307-43c4-ac1f-25ba9f01c11c")
-		)
-		(pin "2"
-			(uuid "9d0aae9e-33ed-419e-8bf8-0391bd5d7b56")
-		)
-		(instances
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "C184")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 302.26 218.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24297,6 +22552,80 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "U64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SLSS49E-3_1")
+		(lib_id "Salane Personal Symbol:SLSS49E-3")
+		(at 411.48 250.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "719e5744-e76f-40b9-a6b4-3a735a24f9ec")
+		(property "Reference" "U74"
+			(at 417.83 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SLSS49E-3"
+			(at 417.83 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Hall_Sensor_Keyboard:SLSS49E_MX_1.25U_Rotate"
+			(at 401.32 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081930_Slkor-SLKORMICRO-Elec--SLSS49E-3_C2904393.pdf"
+			(at 394.97 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 411.48 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ee39937-7414-40eb-a58d-67b26674d6ef")
+		)
+		(pin "2"
+			(uuid "36720a97-2162-4fef-aa4b-3b551e2694ac")
+		)
+		(pin "3"
+			(uuid "5ca7f2d9-ba82-4e0a-9b7d-aed65835c1f9")
+		)
+		(instances
+			(project "Heart HE 60"
+				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
+					(reference "U74")
 					(unit 1)
 				)
 			)
@@ -24677,88 +23006,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 190.5 356.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "742831ba-58f3-48bc-8162-51ba1aec9306")
-		(property "Reference" "C17"
-			(at 187.96 358.1338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 187.96 355.5938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Common_Footprint:C_0402"
-			(at 190.5 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c933fbf8-af11-4b0d-bb1c-d037a385bb99")
-		)
-		(pin "2"
-			(uuid "370d8ece-2bd1-45bd-8f12-75dfeaa94e16")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "C86")
-					(unit 1)
-				)
-			)
-			(project "Salane usO"
-				(path "/508e0333-ab34-4ef1-bc47-aa6189986b3c"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 139.7 387.35 180)
+		(at 149.86 387.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24766,7 +23014,7 @@
 		(dnp no)
 		(uuid "752a159f-0a52-4e45-8bde-39701a76ce4e")
 		(property "Reference" "C17"
-			(at 137.16 388.6138 0)
+			(at 147.32 388.6138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24775,7 +23023,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 137.16 386.0738 0)
+			(at 147.32 386.0738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24784,7 +23032,7 @@
 			)
 		)
 		(property "Footprint" "Common_Footprint:C_0402"
-			(at 139.7 387.35 0)
+			(at 149.86 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24793,7 +23041,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 387.35 0)
+			(at 149.86 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24802,7 +23050,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 387.35 0)
+			(at 149.86 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24910,7 +23158,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 532.13 227.33 0)
+		(at 532.13 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24918,7 +23166,7 @@
 		(dnp no)
 		(uuid "771c9e04-44bb-4fa5-9263-39ca1d28510b")
 		(property "Reference" "#PWR036"
-			(at 532.13 231.14 0)
+			(at 532.13 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24927,7 +23175,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 534.67 227.33 0)
+			(at 534.67 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24935,7 +23183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 532.13 227.33 0)
+			(at 532.13 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24944,7 +23192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 532.13 227.33 0)
+			(at 532.13 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24953,7 +23201,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 532.13 227.33 0)
+			(at 532.13 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25838,73 +24086,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 426.72 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fd45269-9aca-4339-a493-51e867138130")
-		(property "Reference" "#PWR0246"
-			(at 420.37 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 422.91 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 426.72 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 426.72 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 426.72 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9de1277f-1494-47a7-9f5c-0800f8af188c")
-		)
-		(instances
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0246")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 38.1 196.85 0)
 		(unit 1)
@@ -26040,7 +24221,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 99.06 387.35 180)
+		(at 109.22 387.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26048,7 +24229,7 @@
 		(dnp no)
 		(uuid "810773c2-17d7-45ae-8312-d7d3c0d6ac47")
 		(property "Reference" "C17"
-			(at 96.52 388.6138 0)
+			(at 106.68 388.6138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26057,7 +24238,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 96.52 386.0738 0)
+			(at 106.68 386.0738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26066,7 +24247,7 @@
 			)
 		)
 		(property "Footprint" "Common_Footprint:C_0402"
-			(at 99.06 387.35 0)
+			(at 109.22 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26075,7 +24256,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 387.35 0)
+			(at 109.22 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26084,7 +24265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 387.35 0)
+			(at 109.22 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26915,6 +25096,80 @@
 			(project "Salane usO"
 				(path "/508e0333-ab34-4ef1-bc47-aa6189986b3c"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SLSS49E-3_1")
+		(lib_id "Salane Personal Symbol:SLSS49E-3")
+		(at 386.08 250.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "886106f9-c18f-4f6b-b4d6-20e8a6e23942")
+		(property "Reference" "U50"
+			(at 392.43 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SLSS49E-3"
+			(at 392.43 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Hall_Sensor_Keyboard:SLSS49E_MX_1.25U_Rotate"
+			(at 375.92 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081930_Slkor-SLKORMICRO-Elec--SLSS49E-3_C2904393.pdf"
+			(at 369.57 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 386.08 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "828b053c-8bcf-4c15-a496-e391c8167c23")
+		)
+		(pin "2"
+			(uuid "5b6d81e3-150c-422f-a757-6b2006006b09")
+		)
+		(pin "3"
+			(uuid "3294532e-1292-4208-9458-93f4ca5a33d2")
+		)
+		(instances
+			(project "Heart HE 60"
+				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
+					(reference "U50")
 					(unit 1)
 				)
 			)
@@ -27896,7 +26151,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 119.38 387.35 180)
+		(at 129.54 387.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27904,7 +26159,7 @@
 		(dnp no)
 		(uuid "8faec7b3-a2a0-4b09-8312-05d7e84191c6")
 		(property "Reference" "C17"
-			(at 116.84 388.6138 0)
+			(at 127 388.6138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27913,7 +26168,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 116.84 386.0738 0)
+			(at 127 386.0738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27922,7 +26177,7 @@
 			)
 		)
 		(property "Footprint" "Common_Footprint:C_0402"
-			(at 119.38 387.35 0)
+			(at 129.54 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27931,7 +26186,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 387.35 0)
+			(at 129.54 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27940,7 +26195,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 387.35 0)
+			(at 129.54 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28130,77 +26385,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "U72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 439.42 196.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90802ae0-1516-42f0-b1e1-31545d569aea")
-		(property "Reference" "#PWR0252"
-			(at 439.42 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 441.96 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 439.42 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 439.42 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 439.42 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe3285e7-4566-4d13-944c-b4667016c278")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "#PWR0252")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0329")
 					(unit 1)
 				)
 			)
@@ -28633,86 +26817,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SLSS49E-3_1")
-		(lib_id "Salane Personal Symbol:SLSS49E-3")
-		(at 436.88 120.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93b7633e-37c0-4d59-8d6a-da8b7a862e8b")
-		(property "Reference" "U50"
-			(at 443.23 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SLSS49E-3"
-			(at 443.23 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Hall_Sensor_Keyboard:SLSS49E_MX_1U"
-			(at 426.72 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081930_Slkor-SLKORMICRO-Elec--SLSS49E-3_C2904393.pdf"
-			(at 420.37 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 436.88 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d733952-466a-4397-95d4-5019886c3b93")
-		)
-		(pin "2"
-			(uuid "d4fea2ff-da75-4470-89be-e18ed73c3c32")
-		)
-		(pin "3"
-			(uuid "a104cd9e-b41a-4135-a56a-4b6e5543c601")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "U50")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "U101")
 					(unit 1)
 				)
 			)
@@ -29725,79 +27829,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 426.72 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bc8046c-32a4-4fd0-913c-587f36902dfa")
-		(property "Reference" "#PWR097"
-			(at 420.37 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 422.91 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 426.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 426.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 426.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fcf09da9-02cc-492e-b37e-7534af5b98bd")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0314")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 154.94 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29943,86 +27974,6 @@
 			(project "Salane usO"
 				(path "/508e0333-ab34-4ef1-bc47-aa6189986b3c"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SLSS49E-3_1")
-		(lib_id "Salane Personal Symbol:SLSS49E-3")
-		(at 436.88 163.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d1b2d3b-67e2-482d-a263-85d068450646")
-		(property "Reference" "U67"
-			(at 443.23 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SLSS49E-3"
-			(at 443.23 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Hall_Sensor_Keyboard:SLSS49E_MX_1U"
-			(at 426.72 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081930_Slkor-SLKORMICRO-Elec--SLSS49E-3_C2904393.pdf"
-			(at 420.37 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 436.88 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7e49e0b-8bb6-43bc-9721-efc90ba62db8")
-		)
-		(pin "2"
-			(uuid "be41e836-0d1a-42c5-a5f7-6a1760835775")
-		)
-		(pin "3"
-			(uuid "07e3f2ad-1b3b-48c8-8e34-7ae9ee42ec46")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "U67")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "U102")
 					(unit 1)
 				)
 			)
@@ -31590,87 +29541,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 170.18 367.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "abab4336-f146-4185-aeeb-86d92f5f6afe")
-		(property "Reference" "C17"
-			(at 167.64 368.2938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 167.64 365.7538 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Common_Footprint:C_0402"
-			(at 170.18 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60140ef7-7bee-478f-af20-5a95b2a09087")
-		)
-		(pin "2"
-			(uuid "9d4765eb-1ac3-45b2-b47c-8ac02c9d7383")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "C116")
-					(unit 1)
-				)
-			)
-			(project "Salane usO"
-				(path "/508e0333-ab34-4ef1-bc47-aa6189986b3c"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 325.12 88.9 270)
 		(unit 1)
@@ -32580,7 +30450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "4.7nF"
 			(at 523.2462 251.46 0)
 			(effects
 				(font
@@ -33364,73 +31234,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 426.72 175.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba67b028-491a-4b75-b3f4-256cbe9ba4b7")
-		(property "Reference" "#PWR0253"
-			(at 420.37 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 422.91 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 426.72 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 426.72 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 426.72 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89b53f50-f953-4c5b-b1c1-4ff7fd799a57")
-		)
-		(instances
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0253")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 45.72 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33870,87 +31673,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "U73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 58.42 377.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bed6782b-9c38-40dd-9bba-f7f60d6c08b2")
-		(property "Reference" "C17"
-			(at 55.88 378.4538 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 55.88 375.9138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Common_Footprint:C_0402"
-			(at 58.42 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b954775-97f2-488f-9f8d-d76d48130c35")
-		)
-		(pin "2"
-			(uuid "6b7c1384-6b68-43b2-b321-de57a3c37907")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "C118")
-					(unit 1)
-				)
-			)
-			(project "Salane usO"
-				(path "/508e0333-ab34-4ef1-bc47-aa6189986b3c"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -35046,77 +32768,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 434.34 240.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c70cf927-ef62-40a7-9cd2-3d9482cb6886")
-		(property "Reference" "#PWR0302"
-			(at 434.34 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 431.8 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 434.34 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 434.34 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 434.34 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb14cec2-1d61-4cf6-aa15-48ed79cf974d")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "#PWR0302")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "#PWR0324")
 					(unit 1)
 				)
 			)
@@ -37037,7 +34688,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 149.86 387.35 180)
+		(at 160.02 387.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37045,7 +34696,7 @@
 		(dnp no)
 		(uuid "d6c59890-e0aa-436a-827e-9ff72634a708")
 		(property "Reference" "C17"
-			(at 147.32 388.6138 0)
+			(at 157.48 388.6138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37054,7 +34705,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 147.32 386.0738 0)
+			(at 157.48 386.0738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37063,7 +34714,7 @@
 			)
 		)
 		(property "Footprint" "Common_Footprint:C_0402"
-			(at 149.86 387.35 0)
+			(at 160.02 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37072,7 +34723,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 387.35 0)
+			(at 160.02 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37081,7 +34732,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 387.35 0)
+			(at 160.02 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37927,7 +35578,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 109.22 387.35 180)
+		(at 119.38 387.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37935,7 +35586,7 @@
 		(dnp no)
 		(uuid "dd0afee8-afc8-4ed2-8f95-fbdd947bb2b2")
 		(property "Reference" "C17"
-			(at 106.68 388.6138 0)
+			(at 116.84 388.6138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37944,7 +35595,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 106.68 386.0738 0)
+			(at 116.84 386.0738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37953,7 +35604,7 @@
 			)
 		)
 		(property "Footprint" "Common_Footprint:C_0402"
-			(at 109.22 387.35 0)
+			(at 119.38 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37962,7 +35613,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 387.35 0)
+			(at 119.38 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37971,7 +35622,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 387.35 0)
+			(at 119.38 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38359,73 +36010,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 529.59 250.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1b1710a-720a-4e0f-b9dc-b0efcc6c4c3a")
-		(property "Reference" "R110"
-			(at 527.05 250.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 529.59 250.19 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Common_Footprint:R_0402"
-			(at 529.59 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 529.59 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 529.59 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b70898d-a8d6-4bc1-bbc6-4375ba5f4b29")
-		)
-		(pin "2"
-			(uuid "76898313-0c8e-4d23-8999-4dfdbc186795")
-		)
-		(instances
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -39016,7 +36600,7 @@
 	(symbol
 		(lib_name "SLSS49E-3_1")
 		(lib_id "Salane Personal Symbol:SLSS49E-3")
-		(at 529.59 237.49 270)
+		(at 529.59 242.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39025,7 +36609,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6974646-5071-406a-abe8-92f702212447")
 		(property "Reference" "U57"
-			(at 535.94 236.22 90)
+			(at 535.94 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39034,7 +36618,7 @@
 			)
 		)
 		(property "Value" "SLSS49E-3"
-			(at 535.94 238.76 90)
+			(at 535.94 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39043,7 +36627,7 @@
 			)
 		)
 		(property "Footprint" "Hall_Sensor_Keyboard:SLSS49E_MX_2.75U"
-			(at 519.43 237.49 0)
+			(at 519.43 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39052,7 +36636,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081930_Slkor-SLKORMICRO-Elec--SLSS49E-3_C2904393.pdf"
-			(at 513.08 237.49 0)
+			(at 513.08 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39061,7 +36645,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 529.59 237.49 0)
+			(at 529.59 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39526,86 +37110,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SLSS49E-3_1")
-		(lib_id "Salane Personal Symbol:SLSS49E-3")
-		(at 436.88 250.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e92ccdd8-d9ec-4b46-b0e1-997e033d2882")
-		(property "Reference" "U101"
-			(at 443.23 248.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SLSS49E-3"
-			(at 443.23 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Hall_Sensor_Keyboard:SLSS49E_MX_1U"
-			(at 426.72 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081930_Slkor-SLKORMICRO-Elec--SLSS49E-3_C2904393.pdf"
-			(at 420.37 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 436.88 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70fef6d5-c172-4226-a1c0-e3331351412c")
-		)
-		(pin "2"
-			(uuid "de44add6-68e0-47ea-8a14-3f5ba2ffd8e8")
-		)
-		(pin "3"
-			(uuid "811eb6b8-a8ef-429a-87ae-a2752852b4d0")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "U101")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "U104")
 					(unit 1)
 				)
 			)
@@ -41176,7 +38680,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 129.54 387.35 180)
+		(at 139.7 387.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41184,7 +38688,7 @@
 		(dnp no)
 		(uuid "f745874f-091c-413b-a459-36558a6d9ce1")
 		(property "Reference" "C17"
-			(at 127 388.6138 0)
+			(at 137.16 388.6138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41193,7 +38697,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 127 386.0738 0)
+			(at 137.16 386.0738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41202,7 +38706,7 @@
 			)
 		)
 		(property "Footprint" "Common_Footprint:C_0402"
-			(at 129.54 387.35 0)
+			(at 139.7 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41211,7 +38715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 387.35 0)
+			(at 139.7 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41220,7 +38724,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 387.35 0)
+			(at 139.7 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41250,86 +38754,6 @@
 			(project "Salane usO"
 				(path "/508e0333-ab34-4ef1-bc47-aa6189986b3c"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SLSS49E-3_1")
-		(lib_id "Salane Personal Symbol:SLSS49E-3")
-		(at 386.08 250.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7a3e1bd-8c9d-4719-94e5-62cca33f026e")
-		(property "Reference" "U99"
-			(at 392.43 248.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SLSS49E-3"
-			(at 392.43 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Hall_Sensor_Keyboard:SLSS49E_MX_1U"
-			(at 375.92 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081930_Slkor-SLKORMICRO-Elec--SLSS49E-3_C2904393.pdf"
-			(at 369.57 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 386.08 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a00311eb-0510-4380-abfd-498f253252cb")
-		)
-		(pin "2"
-			(uuid "cae0e01d-a8a2-4433-88d1-0b30d0d5cac8")
-		)
-		(pin "3"
-			(uuid "b00df00e-7688-460e-8770-0ded2d976d0a")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "U99")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "U92")
 					(unit 1)
 				)
 			)
