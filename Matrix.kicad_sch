@@ -705,12 +705,6 @@
 		(uuid "2e677e69-5f3f-4473-9ad9-fd098b23796a")
 	)
 	(junction
-		(at 119.38 400.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "315eee63-964b-4a6f-a7ba-3ab550c8c102")
-	)
-	(junction
 		(at 58.42 384.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -955,12 +949,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a80e7ca-ba33-41fe-af1b-2daae72e7091")
-	)
-	(junction
-		(at 119.38 394.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b465add-d6f8-4be1-be69-8880f53486b2")
 	)
 	(junction
 		(at 88.9 379.73)
@@ -3580,16 +3568,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 400.05) (xy 119.38 400.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63be6bfb-ce15-436d-82d5-6a71bc07dc04")
-	)
-	(wire
-		(pts
 			(xy 527.05 232.41) (xy 527.05 234.95)
 		)
 		(stroke
@@ -4330,16 +4308,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 394.97) (xy 119.38 394.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "890db90a-3b6f-47dd-961b-dc5d05bfac24")
-	)
-	(wire
-		(pts
 			(xy 160.02 394.97) (xy 170.18 394.97)
 		)
 		(stroke
@@ -5000,7 +4968,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 394.97) (xy 139.7 394.97)
+			(xy 109.22 394.97) (xy 139.7 394.97)
 		)
 		(stroke
 			(width 0)
@@ -5110,7 +5078,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 400.05) (xy 139.7 400.05)
+			(xy 109.22 400.05) (xy 139.7 400.05)
 		)
 		(stroke
 			(width 0)
@@ -28269,87 +28237,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 180.34 397.51 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0572a2f-26f4-4f89-bf75-3196a8b95875")
-		(property "Reference" "C17"
-			(at 177.8 398.7738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 177.8 396.2338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Common_Footprint:C_0402"
-			(at 180.34 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2348a1c-8be5-4c99-8c6f-9ff88d9d4f99")
-		)
-		(pin "2"
-			(uuid "c2bf4d15-703e-48b9-aa8c-518818656a3d")
-		)
-		(instances
-			(project "Matrix"
-				(path "/24243bf5-bf8b-4a70-84ec-02c831689d67"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "C161")
-					(unit 1)
-				)
-			)
-			(project "Salane usO"
-				(path "/508e0333-ab34-4ef1-bc47-aa6189986b3c"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "SLSS49E-3_1")
 		(lib_id "Salane Personal Symbol:SLSS49E-3")
 		(at 157.48 163.83 270)
@@ -30799,75 +30686,6 @@
 			(project "Heart HE 65"
 				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 119.38 397.51 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6a9cf13-9914-454a-8424-85a3684514e2")
-		(property "Reference" "C164"
-			(at 116.84 398.7738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 116.84 396.2338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Common_Footprint:C_0402"
-			(at 119.38 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "090e4177-fbec-4917-b542-90f96751ca0f")
-		)
-		(pin "2"
-			(uuid "66f9f1c1-ae9c-4257-ba77-ce48840571f4")
-		)
-		(instances
-			(project "Heart HE 65"
-				(path "/4ead6829-f799-4396-8251-4a39c9105839/9fdba786-3862-4d85-a21d-909462cdc5e8/c2aa7cdd-8304-4761-a815-122b263a5b09"
-					(reference "C164")
 					(unit 1)
 				)
 			)
